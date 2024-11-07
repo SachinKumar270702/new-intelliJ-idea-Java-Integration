@@ -1,6 +1,6 @@
 package prev.src.basicsortingAlgo;
 
-public class mergeSort {
+public class  mergeSort {
     static void displayArr(int[] arr){
         for(int val:arr){
             System.out.print(val+" ");
