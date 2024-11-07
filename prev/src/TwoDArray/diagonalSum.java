@@ -2,9 +2,11 @@ package prev.src.TwoDArray;
 
 import java.util.Scanner;
 
-import static TwoDArray.spiralMatrixPrint.printMatrix;
+import static prev.src.TwoDArray.Matrix.printMatrix;
+
 
 public class diagonalSum {
+
     static int DaigonalSum(int[][] matrix){
         int sum=0;
 
