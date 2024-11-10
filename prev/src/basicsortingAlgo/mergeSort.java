@@ -6,8 +6,6 @@ public class  mergeSort {
             System.out.print(val+" ");
         }
     }
-
-
     static void mergesortAlgo(int[] arr, int l, int r){
         if(l>=r) return;
         int mid=(l+r)/2;
