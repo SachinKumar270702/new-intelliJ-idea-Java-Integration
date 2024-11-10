@@ -1,6 +1,4 @@
-package prev.src.strings;
-
-import java.util.Scanner;
+package strings;
 
 public class intro {
     public static void main(String[] args) {
