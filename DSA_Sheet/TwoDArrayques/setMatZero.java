@@ -1,6 +1,17 @@
 package DSA_Sheet.TwoDArrayques;
 
+
+
 public class setMatZero {
+    static void printMatrix(int[][] matrix){
+       for(int i=0;i<matrix.length;i++){
+           for(int j=0;j<matrix[0].length;j++){
+               System.out.print(matrix[i][j]+",");
+           }
+           System.out.println();
+       }
+        System.out.println();
+    }
     static void setMatrixZero(int[][] matrix){
         int m=matrix.length;
         int n=matrix[0].length;
@@ -39,6 +50,10 @@ m == matrix.length
 n == matrix[0].length
 1 <= m, n <= 200
 -231 <= matrix[i][j] <= 231 - 1*/
+        int[][] mat={{0,2,3,0},{3,4,5,2},{1,2,1,5}};
+
+        setMatrixZero(mat);
+        printMatrix(mat);
 
     }
 }
