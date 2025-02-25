@@ -1,21 +1,42 @@
 package strings;
 
+import java.util.Scanner;
+
 public class intro {
     public static void main(String[] args) {
-//        char arr[]={'a','b','c','d'};
-//        String str="abcd";
-//        String str2=new String("xyz");
-//        //Strings are immutable;
-//        Scanner st=new Scanner(System.in);
-//        System.out.println("Enter name");
-//        String name=st.next();
-//        System.out.println(name);
-        String fName="Sachin kumar";
-        System.out.println(fName.length());
-        //concatenation
-        String firstName="Sachin";
-        String lastName="kumar";
-        String fullName=firstName+" "+lastName;
-        System.out.println(fullName);
+        Scanner sc=new Scanner(System.in);
+//        String str="Sachin";
+//        System.out.println(str);
+//        String str=sc.next();
+//        String str2=sc.nextLine();
+//        System.out.println(str2);
+
+//        String s="Sachin";
+//        System.out.println(s.length());
+//        System.out.println(s.charAt(4));
+
+        String str="physics";
+//        System.out.println(str.contains("jd"));
+//        System.out.println(str.startsWith("Sac"));
+
+//        for(int j=2;j<4;j++){
+//            System.out.println(str.substring(j));
+//        }
+
+
+        String s="abcd";
+        for(int i=0;i<=s.length();i++){
+            for(int j=i+1;j<=s.length();j++){
+                System.out.print(s.substring(i,j)+" ");
+            }
+        }
+
+
+
+
+
+
+
+
     }
 }
