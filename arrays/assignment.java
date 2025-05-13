@@ -86,9 +86,8 @@ public class assignment {
         int result=chocoDist(arr,m);
         if(result!=-1){
             System.out.println("min. difference: "+result);
-        }else{
+        }else {
             System.out.println("invalid input");
         }
-
     }
 }
